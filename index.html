@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Roshni P R - Electronics & Communication Engineering Student and Software Developer. Building practical software and embedded solutions with Java, Web Technologies, and Arduino." />
+  <meta name="keywords" content="Roshni P R, ECE, Software Developer, Java, Arduino, Embedded Systems, Web Development, Portfolio" />
+  <meta name="author" content="Roshni P R" />
+  <title>Roshni P R | ECE Student & Software Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-dark text-light antialiased">
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Background Ambient Glow & Grid -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+  <div class="bg-cyber-grid" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Roshni P R Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Roshni P R</span>
+        <span class="logo-slash">/</span>
+        <span class="logo-bracket">&gt;</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="resume-nav-btn" class="btn btn-outline-sm resume-trigger-btn" aria-label="Open Resume View">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-toggle" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-link"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#skills" class="mobile-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a href="#experience" class="mobile-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+        <li><a href="#projects" class="mobile-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+        <li><a href="#achievements" class="mobile-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+        <li><a href="#education" class="mobile-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#contact" class="mobile-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <button class="btn btn-primary w-full resume-trigger-btn">
+          <i class="fa-solid fa-file-lines"></i> View Resume
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for Tech Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name-gradient">Roshni P R</span>
+          </h1>
+
+          <div class="hero-tags">
+            <span class="badge-tag"><i class="fa-solid fa-microchip"></i> ECE Student</span>
+            <span class="badge-tag"><i class="fa-solid fa-code"></i> Software Developer</span>
+            <span class="badge-tag"><i class="fa-solid fa-bolt"></i> Tech Enthusiast</span>
+          </div>
+
+          <p class="hero-description">
+            Building practical software and embedded solutions with Java, web technologies, and Arduino.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <button class="btn btn-secondary resume-trigger-btn">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download Resume</span>
+            </button>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <div class="social-links-wrapper">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:roshni.pr.ece@gmail.com" class="social-btn" aria-label="Email Roshni" title="Email: roshni.pr.ece@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic: Futuristic Developer Code Terminal -->
+        <div class="hero-visual reveal-on-scroll delay-200">
+          <div class="code-terminal-card">
+            <!-- Terminal Header -->
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">
+                <i class="fa-brands fa-java text-cyan"></i> RoshniDev.java
+              </div>
+              <div class="terminal-chip">
+                <span class="status-indicator"></span> ECE & Dev
+              </div>
+            </div>
+
+            <!-- Terminal Body -->
+            <div class="terminal-body">
+              <div class="code-lines-wrapper">
+                <div class="line-numbers" aria-hidden="true">
+                  <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                  <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                  <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+                </div>
+                <pre class="code-block"><code id="typed-code"><span class="token-keyword">public class</span> <span class="token-class">RoshniDev</span> {
+    <span class="token-keyword">public static void</span> <span class="token-func">main</span>(String[] args) {
+        <span class="token-comment">// Passion for code & circuits</span>
+        Developer roshni = <span class="token-keyword">new</span> Developer();
+        roshni.setBranch(<span class="token-string">"ECE"</span>);
+        roshni.setFocus(<span class="token-string">"Software & IoT"</span>);
+        
+        String[] coreSkills = {
+            <span class="token-string">"Java"</span>, <span class="token-string">"Web Dev"</span>, 
+            <span class="token-string">"MySQL"</span>, <span class="token-string">"Arduino"</span>
+        };
+        
+        roshni.buildImpactfulSolutions(coreSkills);
+        System.out.println(<span class="token-string">"System ready to innovate 🚀"</span>);
+    }
+}</code></pre>
+              </div>
+
+              <!-- Terminal Live Metrics Bar -->
+              <div class="terminal-footer">
+                <div class="footer-stat">
+                  <i class="fa-solid fa-bolt text-warning"></i>
+                  <span>CGPA: <strong>9.02/10</strong></span>
+                </div>
+                <div class="footer-stat">
+                  <i class="fa-solid fa-code-commit text-accent"></i>
+                  <span>Embedded + Web</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Circuit Board Decorative Overlay -->
+            <div class="circuit-decoration" aria-hidden="true">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 10 H80 V60 H140 V120 H190" stroke="url(#circuit-grad)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <path d="M30 180 H90 V130 H160 V80" stroke="url(#circuit-grad)" stroke-width="1.5" />
+                <circle cx="80" cy="60" r="4" fill="#06b6d4" />
+                <circle cx="140" cy="120" r="4" fill="#6366f1" />
+                <circle cx="90" cy="130" r="4" fill="#06b6d4" />
+                <defs>
+                  <linearGradient id="circuit-grad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6366f1" stop-opacity="0.6"/>
+                    <stop offset="1" stop-color="#06b6d4" stop-opacity="0.8"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Roshni P R - Electronics & Communication Engineering Student and Software Developer." />
+  <meta name="keywords" content="Roshni P R, ECE, Software Developer, Java, Arduino, Embedded Systems" />
+  <meta name="author" content="Roshni P R" />
+  <title>Roshni P R | ECE Student & Software Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    /* ========== RESET & BASE ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #0a0a0f;
+      color: #e8e8f0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ========== SCROLLBAR ========== */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0a0a0f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #6366f1, #06b6d4);
+      border-radius: 10px;
+    }
+
+    /* ========== CONTAINER ========== */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ========== SECTION ========== */
+    .section {
+      padding: 5rem 0;
+    }
+
+    /* ========== SECTION HEADER ========== */
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-subtitle {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6366f1;
+      background: rgba(99, 102, 241, 0.12);
+      padding: 0.4rem 1.2rem;
+      border-radius: 100px;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: 2.6rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .section-line {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #6366f1, #06b6d4);
+      margin: 1rem auto 0;
+      border-radius: 10px;
+    }
+
+    /* ========== GLASS CARD ========== */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 20px;
+      padding: 1.8rem;
+      transition: all 0.3s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(99, 102, 241, 0.2);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    /* ========== REVEAL ON SCROLL ========== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal-on-scroll.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-100 { transition-delay: 0.1s; }
+    .delay-200 { transition-delay: 0.2s; }
+    .delay-300 { transition-delay: 0.3s; }
+    .delay-400 { transition-delay: 0.4s; }
+    .delay-500 { transition-delay: 0.5s; }
+
+    /* ================================================================ */
+    /* ========== ABOUT + SKILLS SECTION ========== */
+    /* ================================================================ */
+
+    #about-skills {
+      background: radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.06) 0%, transparent 60%),
+                  radial-gradient(ellipse at 80% 50%, rgba(6, 182, 212, 0.06) 0%, transparent 60%);
+    }
+
+    .about-skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    /* ===== LEFT: ABOUT BIO ===== */
+    .about-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* REMOVED the unwanted circle glow */
+    /* .card-glow-top was removed */
+
+    /* No icon - just plain text */
+    .about-header-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #6366f1;
+      background: rgba(99, 102, 241, 0.1);
+      padding: 0.4rem 1.2rem;
+      border-radius: 100px;
+      margin-bottom: 1.2rem;
+      border: 1px solid rgba(99, 102, 241, 0.1);
+    }
+
+    .about-text-lead {
+      font-size: 1.05rem;
+      color: #e0e0f0;
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+
+    .about-text-lead strong {
+      color: #c4b5fd;
+    }
+
+    .about-text {
+      color: #b0b0c8;
+      font-size: 0.95rem;
+      margin-bottom: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .about-text strong {
+      color: #e0e0f0;
+    }
+
+    /* Quote with icon removed */
+    .about-quote {
+      padding: 1rem 1.2rem;
+      background: rgba(99, 102, 241, 0.06);
+      border-radius: 12px;
+      border-left: 3px solid #6366f1;
+      margin: 1.2rem 0;
+    }
+
+    .about-quote span {
+      font-style: italic;
+      color: #c8c8e0;
+      font-size: 0.95rem;
+    }
+
+    /* Highlights - icons kept for visual appeal */
+    .highlights-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1rem;
+    }
+
+    .highlight-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.35rem 1rem;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      color: #c8c8e0;
+      transition: all 0.3s ease;
+    }
+
+    .highlight-pill:hover {
+      background: rgba(99, 102, 241, 0.12);
+      border-color: rgba(99, 102, 241, 0.2);
+      color: #ffffff;
+    }
+
+    .highlight-pill i {
+      font-size: 0.7rem;
+      color: #6366f1;
+    }
+
+    /* ===== RIGHT: SKILLS - Simple Icon Grid ===== */
+    .skills-simple-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .skill-icon-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem 0.75rem;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+      cursor: default;
+      text-align: center;
+      min-height: 110px;
+    }
+
+    .skill-icon-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(99, 102, 241, 0.3);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .skill-icon-circle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-icon-card:hover .skill-icon-circle {
+      transform: scale(1.12);
+    }
+
+    .skill-icon-label {
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.75);
+      letter-spacing: 0.3px;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 1024px) {
+      .about-skills-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .skills-simple-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        padding: 3rem 0;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .about-text-lead {
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .skills-simple-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+      }
+
+      .skill-icon-circle {
+        width: 44px;
+        height: 44px;
+        font-size: 1.2rem;
+      }
+
+      .skill-icon-label {
+        font-size: 0.65rem;
+      }
+
+      .skill-icon-card {
+        padding: 1rem 0.5rem;
+        min-height: 90px;
+      }
+
+      .glass-card {
+        padding: 1.2rem;
+      }
+
+      .about-quote {
+        padding: 0.8rem 1rem;
+      }
+
+      .about-quote span {
+        font-size: 0.85rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .skills-simple-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <!-- ============================================================ -->
+    <!-- ========== ABOUT + SKILLS SECTION (MERGED) ========== -->
+    <!-- ============================================================ -->
+    <section id="about-skills" class="section about-skills-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Profile &amp; Proficiency</span>
+          <h2 class="section-title">About Me &amp; Skills</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-skills-grid">
+          <!-- ===== LEFT: ABOUT BIO (No Icons, No Circle) ===== -->
+          <div class="about-card glass-card reveal-on-scroll">
+            <!-- REMOVED: <div class="card-glow-top"></div> -->
+
+            <!-- Plain text - no icon -->
+            <div class="about-header-badge">
+              Engineering &amp; Innovation
+            </div>
+
+            <p class="about-text-lead">
+              I'm an <strong>Electronics and Communication Engineering</strong> student with a strong interest in <strong>software development</strong> and a passion for building practical technology solutions.
+            </p>
+
+            <p class="about-text">
+              I have hands-on experience with <strong>Java, HTML, CSS, MySQL, Arduino, and embedded systems</strong>, along with experience developing web-based and software projects.
+            </p>
+
+            <p class="about-text">
+              My projects include an <strong>Airline Reservation System</strong>, <strong>Expense Tracker</strong>, and <strong>AutoSense Smart Home System</strong>, combining software development with hardware and automation.
+            </p>
+
+            <!-- Quote - no icon -->
+            <div class="about-quote">
+              <span>"I enjoy turning ideas into functional solutions and continuously exploring new technologies."</span>
+            </div>
+
+            <!-- Key Strengths - icons kept only here -->
+            <div class="highlights-container">
+              <span class="highlight-pill"><i class="fa-solid fa-code"></i> Software Dev</span>
+              <span class="highlight-pill"><i class="fa-solid fa-brain"></i> Problem Solving</span>
+              <span class="highlight-pill"><i class="fa-solid fa-microchip"></i> Embedded</span>
+              <span class="highlight-pill"><i class="fa-solid fa-globe"></i> Web Dev</span>
+              <span class="highlight-pill"><i class="fa-solid fa-people-group"></i> Leadership</span>
+            </div>
+          </div>
+
+          <!-- ===== RIGHT: SKILLS - Simple Icon Grid ===== -->
+          <div class="skills-simple-grid reveal-on-scroll delay-200">
+            <!-- Java -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(255, 107, 53, 0.15); color: #ff6b35;">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <span class="skill-icon-label">Java</span>
+            </div>
+
+            <!-- HTML5 -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(255, 165, 0, 0.15); color: #ffa500;">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="skill-icon-label">HTML5</span>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(38, 77, 228, 0.15); color: #3b82f6;">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <span class="skill-icon-label">CSS3</span>
+            </div>
+
+            <!-- MySQL -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(0, 117, 143, 0.15); color: #00758f;">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <span class="skill-icon-label">MySQL</span>
+            </div>
+
+            <!-- Arduino -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(0, 150, 136, 0.15); color: #009688;">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <span class="skill-icon-label">Arduino</span>
+            </div>
+
+            <!-- Embedded C -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(100, 100, 255, 0.15); color: #8b5cf6;">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="skill-icon-label">Embedded C</span>
+            </div>
+
+            <!-- GitHub -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(36, 41, 46, 0.25); color: #f0f6fc;">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <span class="skill-icon-label">GitHub</span>
+            </div>
+
+            <!-- VS Code -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(0, 122, 204, 0.15); color: #007acc;">
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+              <span class="skill-icon-label">VS Code</span>
+            </div>
+
+            <!-- Proteus -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(255, 183, 77, 0.15); color: #ffb74d;">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <span class="skill-icon-label">Proteus</span>
+            </div>
+
+            <!-- XAMPP -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(251, 140, 0, 0.15); color: #fb8c00;">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <span class="skill-icon-label">XAMPP</span>
+            </div>
+
+            <!-- Sensors -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(0, 206, 209, 0.15); color: #00ced1;">
+                <i class="fa-solid fa-wave-square"></i>
+              </div>
+              <span class="skill-icon-label">Sensors</span>
+            </div>
+
+            <!-- IoT -->
+            <div class="skill-icon-card">
+              <div class="skill-icon-circle" style="background: rgba(255, 69, 0, 0.15); color: #ff4500;">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <span class="skill-icon-label">IoT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== SCROLL REVEAL SCRIPT ========== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+      });
+
+      document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        observer.observe(el);
+      });
+    });
+  </script>
+</body>
+</html>
+
+   
+    <!--======================================================================================================================= -->
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Work & Industrial Exposure</span>
+          <h2 class="section-title">Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot">
+              <span class="dot-core"></span>
+              <span class="dot-ring"></span>
+            </div>
+
+            <div class="timeline-card glass-card">
+              <div class="timeline-badge-row">
+                <span class="exp-role-badge"><i class="fa-solid fa-briefcase"></i> Internship</span>
+                <span class="exp-date-badge"><i class="fa-regular fa-calendar"></i> July 2024</span>
+              </div>
+
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Intern – Embedded Systems and Automation</h3>
+                  <h4 class="exp-company">
+                    <i class="fa-solid fa-building text-accent"></i> Power Integrated Solutions
+                  </h4>
+                </div>
+                <div class="exp-location">
+                  <i class="fa-solid fa-location-dot text-cyan"></i> Trichy, India
+                </div>
+              </div>
+
+              <p class="exp-summary">
+                Completed an intensive industry internship focusing on embedded hardware design, firmware development, and practical automation systems.
+              </p>
+
+              <ul class="exp-bullets">
+                <li>
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>Circuit Design & Simulation:</strong> Designed and simulated digital circuits using Proteus, Embedded C, and Arduino for automation workflows.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>Microcontroller Programming:</strong> Worked with microcontroller programming to execute control logic and device synchronization.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>Sensor Integration:</strong> Gained hands-on experience interfacing and calibrating analog/digital sensors in embedded environments.</span>
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">Proteus</span>
+                <span class="tag">Embedded C</span>
+                <span class="tag">Arduino</span>
+                <span class="tag">Microcontrollers</span>
+                <span class="tag">Sensor Integration</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+   Featured Projects<!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Portfolio Showcases</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Practical applications integrating object-oriented software engineering, full-stack web development, and embedded automation.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01: Airline Reservation System -->
+          <article class="project-card glass-card reveal-on-scroll" data-project="airline">
+            <div class="card-glow-border"></div>
+            
+            <div class="project-header">
+              <div class="project-number">01</div>
+              <div class="project-meta">
+                <span class="project-category"><i class="fa-brands fa-java text-orange"></i> Java Software Project</span>
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> September 2025</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Airline Reservation System</h3>
+              <p class="project-description">
+                Built a simple airline reservation platform for ticket booking, flight search, seat availability checking, and displaying flight and booking information.
+              </p>
+
+              <div class="project-key-features">
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Flight search & scheduling engine</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Real-time seat availability & booking logic</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Passenger record & itinerary management</div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag tag-primary">Java</span>
+                <span class="tag">Software Development</span>
+                <span class="tag">Reservation System</span>
+                <span class="tag">OOP Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: Expense Tracker -->
+          <article class="project-card glass-card reveal-on-scroll delay-200" data-project="expense">
+            <div class="card-glow-border"></div>
+            
+            <div class="project-header">
+              <div class="project-number">02</div>
+              <div class="project-meta">
+                <span class="project-category"><i class="fa-solid fa-database text-cyan"></i> Web & Database</span>
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> August 2025</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Expense Tracker</h3>
+              <p class="project-description">
+                Developed a personal finance tracker to record and manage income and expenses, using XAMPP for local hosting and testing.
+              </p>
+
+              <div class="project-key-features">
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Income and expense categorization</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Persistent MySQL database storage</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-accent"></i> Local environment deployment via XAMPP</div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag tag-cyan">HTML</span>
+                <span class="tag tag-cyan">CSS</span>
+                <span class="tag tag-primary">MySQL</span>
+                <span class="tag">XAMPP</span>
+                <span class="tag">Web Development</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: AutoSense Smart Home System -->
+          <article class="project-card project-card-circuit glass-card reveal-on-scroll delay-400" data-project="autosense">
+            <div class="circuit-pattern-bg" aria-hidden="true"></div>
+            <div class="card-glow-border"></div>
+            
+            <div class="project-header">
+              <div class="project-number">03</div>
+              <div class="project-meta">
+                <span class="project-category"><i class="fa-solid fa-microchip text-accent"></i> Embedded & IoT</span>
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> July 2024</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="badge-iot"><i class="fa-solid fa-bolt"></i> Hardware & Automation</div>
+              <h3 class="project-title">AutoSense Smart Home System</h3>
+              <p class="project-description">
+                Designed and built a smart home automation system using IR sensors, LDR, DC motor, 555 timer, relays, LEDs and Arduino for intelligent appliance control.
+              </p>
+
+              <div class="project-key-features">
+                <div class="feature-item"><i class="fa-solid fa-check text-cyan"></i> IR sensor & LDR ambient light automation</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-cyan"></i> 555 timer timing circuit & DC motor driving</div>
+                <div class="feature-item"><i class="fa-solid fa-check text-cyan"></i> Multi-channel relay switching for appliances</div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag tag-cyan">Arduino</span>
+                <span class="tag tag-primary">IoT</span>
+                <span class="tag">Automation</span>
+                <span class="tag">Sensors</span>
+                <span class="tag">Embedded Systems</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ACHIEVEMENTS SECTION ==================== -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Honors & Recognition</span>
+          <h2 class="section-title">Achievements</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">Demonstrated excellence in technical symposiums, research presentations, and leadership events.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card glass-card reveal-on-scroll">
+            <div class="achievement-icon-box trophy-gold">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-badge-row">
+                <span class="rank-badge gold"><i class="fa-solid fa-medal"></i> First Position</span>
+                <span class="achievement-date">May 2025</span>
+              </div>
+              <h3 class="achievement-title">Paper Presentation at KRISTECH-2K25</h3>
+              <p class="achievement-org"><i class="fa-solid fa-landmark"></i> Indian Society for Technical Education (ISTE)</p>
+              <p class="achievement-detail">
+                Secured 1st place for presenting technical research and engineering innovations at the national-level symposium.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card glass-card reveal-on-scroll delay-150">
+            <div class="achievement-icon-box trophy-gold">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-badge-row">
+                <span class="rank-badge gold"><i class="fa-solid fa-medal"></i> First Position</span>
+                <span class="achievement-date">April 2024</span>
+              </div>
+              <h3 class="achievement-title">TEGARA'24 Technical Event</h3>
+              <p class="achievement-org"><i class="fa-solid fa-landmark"></i> IETE Students Forum</p>
+              <p class="achievement-detail">
+                Awarded First Prize in technical competition conducted by the Institution of Electronics and Telecommunication Engineers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card glass-card reveal-on-scroll delay-300">
+            <div class="achievement-icon-box trophy-silver">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-badge-row">
+                <span class="rank-badge silver"><i class="fa-solid fa-medal"></i> Second Position</span>
+                <span class="achievement-date">April 2024</span>
+              </div>
+              <h3 class="achievement-title">IoT Paper Presentation</h3>
+              <p class="achievement-org"><i class="fa-solid fa-school"></i> Government College of Engineering, Trichy</p>
+              <p class="achievement-detail">
+                Recognized with 2nd place for presenting innovative Internet of Things (IoT) hardware automation concepts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card glass-card reveal-on-scroll delay-450">
+            <div class="achievement-icon-box trophy-lead">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-badge-row">
+                <span class="rank-badge lead"><i class="fa-solid fa-user-shield"></i> Event Organizer</span>
+                <span class="achievement-date">April 2025</span>
+              </div>
+              <h3 class="achievement-title">KRCT IEEE Entrepreneurial Mindset Challenge</h3>
+              <p class="achievement-org"><i class="fa-solid fa-diagram-project"></i> IEEE Student Branch</p>
+              <p class="achievement-detail">
+                Organized and coordinated collegiate technical events fostering innovation, problem solving, and entrepreneurship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.E. College -->
+          <div class="edu-card glass-card edu-primary reveal-on-scroll">
+            <div class="edu-icon-wrap">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="edu-body">
+              <div class="edu-timeline-badge">2022 – 2026</div>
+              <h3 class="edu-degree">Bachelor of Engineering (B.E.)</h3>
+              <div class="edu-field">Electronics and Communication Engineering</div>
+              <div class="edu-institution">
+                <i class="fa-solid fa-building-columns"></i> K. Ramakrishnan College of Technology
+              </div>
+              <div class="edu-score-highlight">
+                <span class="score-label">Cumulative GPA:</span>
+                <span class="score-val">9.02 / 10</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- HSC -->
+          <div class="edu-card glass-card reveal-on-scroll delay-200">
+            <div class="edu-icon-wrap">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="edu-body">
+              <div class="edu-timeline-badge">2021 – 2022</div>
+              <h3 class="edu-degree">Higher Secondary Certificate (HSC)</h3>
+              <div class="edu-field">Class XII • Science Stream (CBSE)</div>
+              <div class="edu-institution">
+                <i class="fa-solid fa-school"></i> Sri Vignesh Public School
+              </div>
+              <div class="edu-score-highlight">
+                <span class="score-label">Score:</span>
+                <span class="score-val">77.2%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SSC -->
+          <div class="edu-card glass-card reveal-on-scroll delay-400">
+            <div class="edu-icon-wrap">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="edu-body">
+              <div class="edu-timeline-badge">2019 – 2020</div>
+              <h3 class="edu-degree">Secondary School Certificate (SSC)</h3>
+              <div class="edu-field">Class X (CBSE)</div>
+              <div class="edu-institution">
+                <i class="fa-solid fa-school"></i> Sri Vignesh Public School
+              </div>
+              <div class="edu-score-highlight">
+                <span class="score-label">Score:</span>
+                <span class="score-val">92.4%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something Together.</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Interested in collaborating, discussing technology, or exploring opportunities? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-card glass-card reveal-on-scroll">
+            <h3 class="contact-info-title">Connect Directly</h3>
+            <p class="contact-info-text">
+              I am always open to discussing new projects, software development roles, hardware innovations, and collaborative tech challenges.
+            </p>
+
+            <div class="contact-methods">
+              <!-- Email Item -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Email</span>
+                  <a href="mailto:roshni.pr.ece@gmail.com" class="method-value" id="email-text">roshni.pr.ece@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copy-email-btn" title="Copy Email to Clipboard" aria-label="Copy Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="method-details">
+                  <span class="method-label">LinkedIn</span>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="method-value">linkedin.com/in/roshni-pr</a>
+                </div>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="external-link-btn" aria-label="Visit LinkedIn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- GitHub Item -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="method-details">
+                  <span class="method-label">GitHub</span>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="method-value">github.com/roshni-pr</a>
+                </div>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="external-link-btn" aria-label="Visit GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Quick Status Badge -->
+            <div class="status-banner">
+              <span class="status-pulse-dot"></span>
+              <span>Open to full-time roles & internships (Graduating 2026)</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card glass-card reveal-on-scroll delay-200">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="form-name" name="name" class="form-control" placeholder="e.g. Alex Morgan" required />
+                </div>
+                <span class="error-feedback" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="form-email" name="email" class="form-control" placeholder="e.g. alex@example.com" required />
+                </div>
+                <span class="error-feedback" id="email-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="form-subject" name="subject" class="form-control" placeholder="Project Inquiry / Job Opportunity" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fa-regular fa-message input-icon textarea-icon"></i>
+                  <textarea id="form-message" name="message" rows="4" class="form-control" placeholder="Write your message here..." required></textarea>
+                </div>
+                <span class="error-feedback" id="message-error">Please write a message</span>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary w-full btn-send">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name">Roshni P R</span>
+            <span class="logo-slash">/</span>
+            <span class="logo-bracket">&gt;</span>
+          </div>
+          <p class="footer-tagline">ECE Student • Software Developer</p>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:roshni.pr.ece@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-credit">
+          &copy; <span id="current-year">2026</span> Roshni P R. Designed & Built with curiosity and code.
+        </p>
+        <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT MODALS ==================== -->
+  <!-- Modal 1: Airline Reservation System -->
+  <div class="modal-overlay" id="modal-airline" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-badge"><i class="fa-brands fa-java text-orange"></i> Java Project • Sept 2025</div>
+        <h3 class="modal-title">Airline Reservation System</h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-summary">
+          <p>A comprehensive desktop platform built using object-oriented Java to simulate airline booking operations, flight inventory management, and seat allocations.</p>
+        </div>
+        <div class="modal-section">
+          <h4>Key Functional Modules</h4>
+          <ul class="modal-list">
+            <li><strong>Flight Search & Query:</strong> Filter flights by source, destination, departure date, and airline.</li>
+            <li><strong>Seat Availability Engine:</strong> Dynamic seat map tracking available, reserved, and booked seats.</li>
+            <li><strong>Ticket Booking & Generation:</strong> Generates booking references with passenger details and fare summaries.</li>
+            <li><strong>Admin & Records Display:</strong> View all current flight schedules, passenger lists, and cancellation records.</li>
+          </ul>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies Used</h4>
+          <div class="modal-tags">
+            <span class="tag tag-primary">Java</span>
+            <span class="tag">Object-Oriented Programming (OOP)</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">Desktop Application</span>
+            <span class="tag">Reservation Logic</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary-sm">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Expense Tracker -->
+  <div class="modal-overlay" id="modal-expense" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-badge"><i class="fa-solid fa-database text-cyan"></i> Web App • Aug 2025</div>
+        <h3 class="modal-title">Expense Tracker</h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-summary">
+          <p>A personal finance web application created with HTML, CSS, and MySQL for tracking daily income, expenses, and transaction histories hosted locally on XAMPP.</p>
+        </div>
+        <div class="modal-section">
+          <h4>Key Features & Architecture</h4>
+          <ul class="modal-list">
+            <li><strong>Income & Expense Logging:</strong> Add categorized expenditures (Food, Travel, Bills, etc.) and earnings with timestamps.</li>
+            <li><strong>MySQL Database Management:</strong> Structured tables storing user transactions with referential integrity.</li>
+            <li><strong>Local Server Hosting:</strong> Configured Apache HTTP Server and MySQL daemon within the XAMPP environment.</li>
+            <li><strong>Responsive Interface:</strong> Clean visual layout for transaction summaries and financial balance calculation.</li>
+          </ul>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies Used</h4>
+          <div class="modal-tags">
+            <span class="tag tag-cyan">HTML5</span>
+            <span class="tag tag-cyan">CSS3</span>
+            <span class="tag tag-primary">MySQL</span>
+            <span class="tag">XAMPP Server</span>
+            <span class="tag">Database Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary-sm">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: AutoSense Smart Home System -->
+  <div class="modal-overlay" id="modal-autosense" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card modal-circuit">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-badge"><i class="fa-solid fa-microchip text-accent"></i> IoT & Embedded • July 2024</div>
+        <h3 class="modal-title">AutoSense Smart Home System</h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-summary">
+          <p>An intelligent home automation prototype merging sensor-driven logic with microcontrollers and electrical switches to optimize power efficiency and convenience.</p>
+        </div>
+        <div class="modal-section">
+          <h4>Hardware & Subsystems</h4>
+          <ul class="modal-list">
+            <li><strong>Infrared (IR) Motion Detection:</strong> Automates room lighting and occupancy tracking.</li>
+            <li><strong>LDR Light Sensing:</strong> Automatically adjusts ambient illumination based on external daylight conditions.</li>
+            <li><strong>555 Timer & DC Motor Control:</strong> Timed actuation for automated ventilation and barrier control.</li>
+            <li><strong>Relay Module Switching:</strong> Safe switching of AC/DC appliances via Arduino microcontroller commands.</li>
+          </ul>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies & Components</h4>
+          <div class="modal-tags">
+            <span class="tag tag-cyan">Arduino</span>
+            <span class="tag tag-primary">Embedded C</span>
+            <span class="tag">IR Sensors</span>
+            <span class="tag">LDR</span>
+            <span class="tag">555 Timer</span>
+            <span class="tag">Relays & DC Motors</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary-sm">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== RESUME MODAL ==================== -->
+  <div class="modal-overlay" id="modal-resume" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card resume-modal-card">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      
+      <div class="resume-preview-header">
+        <div class="resume-preview-title">
+          <i class="fa-solid fa-file-lines text-accent"></i>
+          <div>
+            <h3>Roshni P R — Resume</h3>
+            <p>Electronics & Communication Engineering Student | Software Developer</p>
+          </div>
+        </div>
+        <button id="print-resume-btn" class="btn btn-primary-sm">
+          <i class="fa-solid fa-print"></i> Print / Save PDF
+        </button>
+      </div>
+
+      <div class="resume-document" id="printable-resume">
+        <!-- Resume Header -->
+        <div class="resume-doc-header">
+          <h2>ROSHNI P R</h2>
+          <p class="resume-sub">Electronics and Communication Engineering Student | Software Developer</p>
+          <div class="resume-contact-bar">
+            <span><i class="fa-solid fa-envelope"></i> roshni.pr.ece@gmail.com</span>
+            <span><i class="fa-brands fa-linkedin"></i> linkedin.com/in/roshni-pr</span>
+            <span><i class="fa-brands fa-github"></i> github.com/roshni-pr</span>
+            <span><i class="fa-solid fa-location-dot"></i> Trichy, India</span>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">PROFESSIONAL SUMMARY</h4>
+          <p>Electronics and Communication Engineering student with a strong interest in software development and a passion for building practical technology solutions. Hands-on experience with Java, HTML, CSS, MySQL, Arduino, and embedded systems. Proven track record in paper presentations, technical symposiums, and organizational leadership.</p>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">EDUCATION</h4>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>K. Ramakrishnan College of Technology</strong>
+              <span>2022 – 2026</span>
+            </div>
+            <div class="resume-entry-sub">B.E. Electronics and Communication Engineering — <strong>CGPA: 9.02 / 10</strong></div>
+          </div>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>Sri Vignesh Public School (CBSE)</strong>
+              <span>2021 – 2022</span>
+            </div>
+            <div class="resume-entry-sub">HSC (Class XII) — <strong>77.2%</strong></div>
+          </div>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>Sri Vignesh Public School (CBSE)</strong>
+              <span>2019 – 2020</span>
+            </div>
+            <div class="resume-entry-sub">SSC (Class X) — <strong>92.4%</strong></div>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">TECHNICAL SKILLS</h4>
+          <p><strong>Programming & Web:</strong> Java, HTML, CSS, MySQL</p>
+          <p><strong>Embedded & Hardware:</strong> Arduino, Microcontrollers, Embedded C, Sensor Integration</p>
+          <p><strong>Tools & Platforms:</strong> GitHub, VS Code, Proteus, XAMPP</p>
+        </div>
+
+        <!-- Experience -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">EXPERIENCE</h4>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>Power Integrated Solutions</strong>
+              <span>July 2024 | Trichy, India</span>
+            </div>
+            <div class="resume-entry-sub">Intern – Embedded Systems and Automation</div>
+            <ul class="resume-bullets">
+              <li>Designed and simulated digital circuits using Proteus, Embedded C, and Arduino.</li>
+              <li>Programmed microcontrollers for dedicated control and sensor management.</li>
+              <li>Integrated and tested physical sensors and automation triggers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">PROJECTS</h4>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>Airline Reservation System</strong>
+              <span>September 2025</span>
+            </div>
+            <div class="resume-entry-sub">Java • Software Development • Reservation System</div>
+            <p>Built a simple airline reservation platform for ticket booking, flight search, seat availability checking, and displaying flight and booking information.</p>
+          </div>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>Expense Tracker</strong>
+              <span>August 2025</span>
+            </div>
+            <div class="resume-entry-sub">HTML • CSS • MySQL • XAMPP • Web Development</div>
+            <p>Developed a personal finance tracker to record and manage income and expenses, using XAMPP for local hosting and testing.</p>
+          </div>
+          <div class="resume-entry">
+            <div class="resume-entry-top">
+              <strong>AutoSense Smart Home System</strong>
+              <span>July 2024</span>
+            </div>
+            <div class="resume-entry-sub">Arduino • IoT • Automation • Sensors • Embedded Systems</div>
+            <p>Designed and built a smart home automation system using IR sensors, LDR, DC motor, 555 timer, relays, LEDs and Arduino for intelligent appliance control.</p>
+          </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="resume-sec">
+          <h4 class="resume-sec-title">ACHIEVEMENTS & LEADERSHIP</h4>
+          <ul class="resume-bullets">
+            <li><strong>First Position:</strong> Paper Presentation at KRISTECH-2K25, ISTE (May 2025)</li>
+            <li><strong>First Position:</strong> TEGARA'24, IETE Students Forum (April 2024)</li>
+            <li><strong>Second Position:</strong> IoT Paper Presentation, Government College of Engineering, Trichy (April 2024)</li>
+            <li><strong>Event Organizer:</strong> KRCT IEEE Entrepreneurial Mindset Challenge (April 2025)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-container" aria-live="polite">
+    <div class="toast-card">
+      <i class="fa-solid fa-circle-check toast-icon"></i>
+      <div class="toast-content">
+        <h5 class="toast-title" id="toast-title">Success</h5>
+        <p class="toast-message" id="toast-message">Action completed successfully.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
